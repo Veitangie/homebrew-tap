@@ -4,22 +4,22 @@ cask "sinq-bin" do
 
   on_macos do
     on_intel do
-      sha256 "2491f39de87a0df8fdbaec0ee76bba5fbdd548ed632b6bae4ad5aaa020afd109"
+      sha256 "64ed77ef9998c8dcb951dcc3e3e1fe82836ef901a927e635a30e8e29ab7d21e2"
       url "https://github.com/Veitangie/sinq/releases/download/v#{version}/sinq-#{version}-macOS-x86_64.tar.gz"
     end
     on_arm do
-      sha256 "d4800ae0ce4d4fadf601b6849e0cd25e0d89cfee12922a769468f3513611af25"
+      sha256 "bcb6f7ed65933a2a96c24e47d01d42aa301be5d2f413aefd88cd894cc27fec73"
       url "https://github.com/Veitangie/sinq/releases/download/v#{version}/sinq-#{version}-macOS-arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "bb6bbf907da0b1c04473772aac41717de7bf989ddf09d70869487639f03f4a56"
+      sha256 "3de6905a7c29b3328542f6e60b2ff33c75352db86bbe0a29c3016c96b95d7047"
       url "https://github.com/Veitangie/sinq/releases/download/v#{version}/sinq-#{version}-linux-x86_64.tar.gz"
     end
     on_arm do
-      sha256 "5fc93b034fb1bdd60fb16f9af961ad57aecc3cc809af96915dfe5c51017ae4be"
+      sha256 "7d078a277da8f4d92a1379feb6af1290712512ba0e303382ac19c63bd9f01b93"
       url "https://github.com/Veitangie/sinq/releases/download/v#{version}/sinq-#{version}-linux-arm64.tar.gz"
     end
   end
