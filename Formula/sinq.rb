@@ -2,7 +2,7 @@ class Sinq < Formula
   desc "A concurrent HTTP functional and integration testing tool."
   homepage "https://github.com/Veitangie/sinq"
   url "https://github.com/Veitangie/sinq/archive/refs/tags/v1.0.0-rc.23.tar.gz"
-  sha256 "ac6c33b53b5bb47f8d98ecb050bd541d776967a5d47621facd5ec6ea54864c4d"
+  sha256 "aec40aafffe850da602c47faa3f767f9754b933548d45588dbf7ad8d56133ced"
   license "GPL-3.0-or-later"
 
   depends_on "go" => :build
